@@ -8,9 +8,29 @@ import org.json.simple.parser.ParseException;
 import java.io.FileReader;
 import java.io.IOException;
 
+/**
+ * Purpose - To read from InventoryDetails.json and find total price
+ * @author SUDIP PANJA
+ * @version 11.0.11
+ * @since 2021-08-22
+ */
 public class InventoryDataManagement {
-    public static void main(String[] args) throws IOException, ParseException {
 
+    public static void main(String[] args) throws IOException, ParseException {
+        InventoryDataManagement dataManagement = new InventoryDataManagement();
+        dataManagement.InventoryManager();
+    }
+
+    /**
+     * Purpose: Method to read Inventory.json file and find the total price
+     * Providing read-only access to JSON data.
+     * Reading the external JSON file
+     * Creating main object to store JSONParser, JSONObject and JSONArray
+     * Parsing object to JSONObject from InventoryDetails.json file
+     * @throws IOException error
+     * @throws ParseException error
+     */
+    public void InventoryManager() throws IOException, ParseException {
         JSONParser parser = new JSONParser();
 
         Object obj = parser.parse(new FileReader("resource/InventoryDetails.json"));
@@ -74,3 +94,4 @@ public class InventoryDataManagement {
         }
     }
 }
+
