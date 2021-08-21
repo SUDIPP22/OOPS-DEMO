@@ -1,0 +1,53 @@
+{
+  "Rice": [
+    {
+      "name": "Brown rice",
+      "weight": 50.2,
+      "price": 120.5
+    },
+    {
+      "name": "Basmati rice",
+      "weight": 60.2,
+      "price": 155.5
+    },
+    {
+      "name": "Arborio rice",
+      "weight": 70.2,
+      "price": 180.5
+    }
+  ],
+  "Wheat": [
+    {
+      "name": "Atta",
+      "weight": 30.5,
+      "price": 60.5
+    },
+    {
+      "name": "Aashirvaad",
+      "weight": 10.0,
+      "price": 80.5
+    },
+    {
+      "name": "Annapurna",
+      "weight": 20.5,
+      "price": 70.6
+    }
+  ],
+  "Pulses": [
+    {
+      "name": "Urad Daal",
+      "weight": 10.5,
+      "price": 200.50
+    },
+    {
+      "name": "Masoor Daal",
+      "weight": 20.5,
+      "price": 190.0
+    },
+    {
+      "name": "Moong Daal",
+      "weight": 40.5,
+      "price": 280.0
+    }
+  ]
+}
