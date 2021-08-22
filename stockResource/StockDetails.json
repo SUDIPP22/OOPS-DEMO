@@ -1,0 +1,19 @@
+{
+  "Stock": [
+    {
+      "stockName": "Wipro Limited",
+      "numberOfShare": 1000,
+      "sharePrice": 619.00
+    },
+    {
+      "stockName": "Mphasis Ltd",
+      "numberOfShare": 2000,
+      "sharePrice": 2869.90
+    },
+    {
+      "stockName": "Tata Consultancy Service Limited",
+      "numberOfShare": 2500,
+      "sharePrice": 3551.60
+    }
+  ]
+}
